@@ -130,7 +130,7 @@ class _HomeState extends State<Home> {
 
   void _handleToDoChange(ToDo todo) {
     setState(() {
-      todo.isDone = todo.isDone;
+      todo.isDone = !todo.isDone;
     });
   }
 
